@@ -1,0 +1,24 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "tasker": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^6.0.1",
+    "axios": "^1.7.7",
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "inquirer": "^11.0.2",
+    "yargs": "13.2"
+  }
+}
